@@ -20,7 +20,8 @@ function updateBudgetDisplay() {
 addExpenseButton.addEventListener('click', () => {
   console.log('Button clicked');
   
-  const expense = parseFloat(expenseInput.value);
+  const expenseValue = expenseInput.value;
+  const expense = parseFloat(expenseValue);
   console.log('Entered Expense: ', expense);
 
   if(!isNAN(expense) && expense > 0 && expense <= remainingBudget) {
