@@ -1,6 +1,6 @@
 //Initialize budget values
 let totalBudget = 2500;
-let remainingBudget = totalBudget;
+let remainingBudget = totalBudget - expense;
 
 // Select elements
 const totalBudgetElement = document.getElementById('total-budget');
