@@ -1,6 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -15,6 +16,15 @@ body {
   text-align: center;
   width: 100%
             }
+
+h1{
+  color: black;
+  font-size: 28px;
+  padding: 10px;
+  text-align: center;
+  margin: 5px 0;
+}
+
 .container {
   text-align: center;
   background-color: white;
@@ -30,19 +40,20 @@ progress {
   margin-top: 10px;
 }
 
-input {
+input[type="text:], input[type="number"], button {
   padding: 8px;
   width: 80%;
   margin-top: 15px;
 }
 
 button {
+  position: relative;
+  width: 100%;
   padding: 10px 15px;
   margin-top: 10px;
   background-color: #4CAF50;
   color: white;
   border: none;
-  border-radius: 5px;
   cursor: pointer;
 }
 
