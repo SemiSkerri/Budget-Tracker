@@ -12,7 +12,12 @@
     <h1> Monthly Budgeting </h1>
   </header>
   
-  <div class="container">
+  <div class="form-container">
+    <form id="budgetForm">
+      <label for= "spent">Enter how much was spent: </label>
+      <input type="number" id="spent" value="1" min="1">
+      <button type="button" id="add-expense-btn">Remaining Budget</button>
+    </form>
 
       <p> Total Budget: $<span id="total-budget"> 2500</span></p>
       <p> Remianing Budget: $<span id="remaining-budget">2500</span></p>
