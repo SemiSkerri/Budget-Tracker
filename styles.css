@@ -8,6 +8,13 @@ body {
   background-color: grey;
 }
 
+ .header {
+  background-color: #f0e4da;
+  color: #182118;
+  padding: 10px;
+  text-align: center;
+  width: 100%
+            }
 .container {
   text-align: center;
   background-color: white;
