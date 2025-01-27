@@ -11,7 +11,7 @@ const addExpenseButton = document.getElementById('add-expense-btn');
 
 //Update the visual representation of the remaining budget
 function updateBudgetDisplay() {
-  remainingBudgetElement.textContent = remainingBudget;
+  remainingBudgetElement.textContent = remainingBudget.toFixed(2);
   progressBar.value = remainingBudget;
 }
 
